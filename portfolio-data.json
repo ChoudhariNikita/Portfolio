@@ -163,7 +163,7 @@
         {
           "platform": "LinkedIn",
           "url": "https://www.linkedin.com/in/nikita-choudhari-64925b224/",
-          "icon": "globe"
+          "icon": "linkedin"
         },
         {
           "platform": "GitHub",
@@ -171,19 +171,9 @@
           "icon": "globe"
         },
         {
-          "platform": "linkedin",
-          "url": "https://linkedin.com/in/johndoe",
-          "icon": "linkedin"
-        },
-        {
-          "platform": "linkedin",
-          "url": "https://linkedin.com/in/johndoe",
-          "icon": "linkedin"
-        },
-        {
-          "platform": "linkedin",
-          "url": "https://linkedin.com/in/johndoe",
-          "icon": "linkedin"
+          "platform": "Leetcode",
+          "url": "https://leetcode.com/NikitaChoudhari96/",
+          "icon": "leetcode"
         }
       ]
     }
