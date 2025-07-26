@@ -1,0 +1,223 @@
+{
+  "settings": {
+    "name": "Nikita Choudhari",
+    "title": "Full Stack Developer",
+    "location": "India",
+    "summary": "Full Stack Developer with experience in MERN stack and passionate about problem-solving and open-source contributions.",
+    "profileImage": "https://avatar.iran.liara.run/public/83",
+    "primaryColor": "#0067c7",
+    "fonts": {
+      "primary": "poppins",
+      "secondary": "outfit"
+    }
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "ctaButtons": [
+        {
+          "text": "Contact Me",
+          "url": "mailto:choudharinikita96@gmail.com",
+          "isPrimary": true,
+          "icon": "mail"
+        },
+        {
+          "text": "Download Resume",
+          "url": "https://drive.google.com/file/d/1FZ2CrZZQpEB30qFouaf3e2-WE3t39WRx/view",
+          "isPrimary": false,
+          "icon": "download"
+        }
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "title": "About Me",
+      "content": "I am a passionate Full Stack Developer with a strong foundation in MERN stack and experience in developing innovative solutions. I have hands-on experience with IoT projects, creating GUI applications, and contributing to open-source projects. I am dedicated to continuous learning and problem-solving, always seeking opportunities to enhance my skills and contribute to meaningful projects. I am also certified in Python, Git/GitHub, Agile and Scrum and SQL.",
+      "skills": {
+        "enabled": true,
+        "title": "Skills",
+        "items": [
+          "C/C++",
+          "Java",
+          "Python",
+          "Javascript",
+          "Typescript",
+          "ReactJs",
+          "ExpressJs",
+          "NodeJs",
+          "MySQL",
+          "MongoDB",
+          "Git",
+          "GitHub"
+        ]
+      }
+    },
+    "experience": {
+      "enabled": true,
+      "title": "Experience",
+      "items": [
+        {
+          "company": "Magic Software Enterprises",
+          "position": "Full Stack Developer Intern",
+          "period": "Aug 2024 - June 2025",
+          "description": "Contributed to core company products like SmartUX, Workspace, and Runtime Manager within a collaborative team using the MERN stack. Created POCs related to proxy middleware & the integration of Angular apps into React applications & vice versa. Developed a flexible email service for the Workspace project, allowing easy configuration and seamless integration."
+        },
+        {
+          "company": "kSemin Systems",
+          "position": "SDE Intern",
+          "period": "Jan 2024 - April 2024",
+          "description": "Hands-On experience with Raspberry Pi Pico W and Performed R&D on various sensors. Worked on Real World IoT Projects like Sensor Management System and used MQTT server for exchanging data between devices and server."
+        },
+        {
+          "company": "LetsGrowMore",
+          "position": "Java Developer Intern",
+          "period": "May 2023 - June 2023",
+          "description": "Created projects using core Java concepts. Used Java Swing and AWT to create stunning GUI applications."
+        }
+      ]
+    },
+    "projects": {
+      "enabled": true,
+      "title": "Projects",
+      "items": [
+        {
+          "title": "PlantHealth",
+          "description": "Developed an Android app for real-time Potato Leaf Disease Detection using image-based analysis. Integrated features like AI chatbot, prediction history, multilingual support, and disease detection via image capture or upload.",
+          "tags": [
+            "React Native",
+            "Python",
+            "MongoDB",
+            "Tailwind CSS"
+          ],
+          "previewUrl": "https://drive.google.com/file/d/19dGwjHZCo3ADlY_BxLNAyiBJiibLtLh-/view"
+        },
+        {
+          "title": "CampusPlaceHub",
+          "description": "Designed a full-stack web portal for college Training and Placement Officers (TPO) to manage student placement data. Included secure login, CRUD operations, and dynamic dashboards for organization-wide accessibility.",
+          "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python",
+            "Flask",
+            "SQLite"
+          ],
+          "previewUrl": "#"
+        },
+        {
+          "title": "Planetary Tourism System",
+          "description": "Developed an innovative application enabling exploration and planning of space journeys to planets, moons, and asteroids. Users can earn virtual coins through inter-active games and quizzes to book tickets for celestial travel experiences.",
+          "tags": [
+            "ReactJS",
+            "NodeJS",
+            "MongoDB",
+            "Tailwind Css"
+          ],
+          "previewUrl": "#"
+        },
+        {
+          "title": "Bank Management System",
+          "description": "Developed a desktop GUI application for Admin-side Account Management, enabling efficient handling of customer data. Implemented features like withdrawal, deposit, balance check, customer search, and printable reports. Utilized JDBC for seamless integration between the front-end and database, ensuring secure real-time operations.",
+          "tags": [
+            "Java",
+            "Swing",
+            "AWT",
+            "JDBC",
+            "MySQL"
+          ],
+          "previewUrl": "#"
+        }
+      ]
+    },
+    "education": {
+      "enabled": true,
+      "title": "Education",
+      "items": [
+        {
+          "institution": "JSPM's Imperial College Of Engineering and Research, Wagholi",
+          "degree": "B.E. (CSE) - 9.47 CGPA",
+          "period": "2022 - 2025"
+        },
+        {
+          "institution": "Government Polytechnic Pune",
+          "degree": "Diploma in Computer Eng. - 89.73%",
+          "period": "2019 - 2022"
+        },
+        {
+          "institution": "Shree Nageshwar Vidyalaya, Moshi",
+          "degree": "Secondary - 92.60%",
+          "period": "2013 - 2019"
+        }
+      ]
+    },
+    "contact": {
+      "enabled": true,
+      "title": "Contact",
+      "email": "choudharinikita96@gmail.com",
+      "phone": "+91-8080145334",
+      "location": "India"
+    },
+    "social": {
+      "enabled": true,
+      "items": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/in/nikita-choudhari-64925b224/",
+          "icon": "globe"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/NikitaChoudhari",
+          "icon": "globe"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/johndoe",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/johndoe",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/johndoe",
+          "icon": "linkedin"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "items": [
+      {
+        "name": "Home",
+        "url": "#hero"
+      },
+      {
+        "name": "About",
+        "url": "#about"
+      },
+      {
+        "name": "Experience",
+        "url": "#experience"
+      },
+      {
+        "name": "Projects",
+        "url": "#projects"
+      },
+      {
+        "name": "Education",
+        "url": "#education"
+      },
+      {
+        "name": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2025 Nikita Choudhari. All rights reserved."
+  }
+}
