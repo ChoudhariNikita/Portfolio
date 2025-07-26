@@ -32,7 +32,7 @@
     "about": {
       "enabled": true,
       "title": "About Me",
-      "content": "I am a passionate Full Stack Developer with a strong foundation in MERN stack and experience in developing innovative solutions. I have hands-on experience with IoT projects, creating GUI applications, and contributing to open-source projects. I am dedicated to continuous learning and problem-solving, always seeking opportunities to enhance my skills and contribute to meaningful projects. I am also certified in Python, Git/GitHub, Agile and Scrum and SQL.",
+      "content": "I am a passionate Full Stack Developer with a Bachelor’s in Computer Engineering. My expertise spans frontend (HTML, CSS, JavaScript, Bootstrap, React.js), backend (Node.js, Express.js, Python/Flask), and databases (MySQL, SQLite, MongoDB). I am skilled in tools like Kubernetes, Git, GitHub, and Jira, and have experience with Java, C++, and Python. I am proficient in Japanese (JLPT N3). During my internships, I worked in a Scrum-based Agile environment, contributing to live projects and collaborating with cross-functional teams. I am eager to leverage my technical and practical experience to deliver efficient, scalable, and user-centric software solutions.",
       "skills": {
         "enabled": true,
         "title": "Skills",
@@ -114,6 +114,17 @@
             "Tailwind Css"
           ],
           "previewUrl": "#"
+        },
+        {
+          "title": "SimplyDraw",
+          "description": "Created SimplyDraw, an intuitive Drawing and Painting web app that fosters creativity. Implemented engaging user experiences through the incorporation of JavaScript animations.",
+          "tags": [
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+          ],
+          "previewUrl": "https://choudharinikita.github.io/SimplyDraw/"
         },
         {
           "title": "Bank Management System",

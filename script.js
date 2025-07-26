@@ -160,7 +160,7 @@ async function renderPortfolio() {
 
     // Navigation bar
     const nav = '<nav class="w-full flex justify-between items-center px-4 sm:px-6 md:px-8 py-5 bg-white/80 dark:bg-black/90 backdrop-blur-md fixed top-0 left-0 z-50 border-b border-gray-200 dark:border-gray-800">' +
-      '<span class="' + primaryFontClass + ' text-xl font-bold tracking-tight primary-text">' + logoName + '<span class="dynamic-primary">.</span></span>' +
+      // '<span class="' + primaryFontClass + ' text-xl font-bold tracking-tight primary-text">' + logoName + '<span class="dynamic-primary">.</span></span>' +
       '<ul class="hidden md:flex gap-6 sm:gap-8 md:gap-10 ' + primaryFontClass + ' text-lg">' + navLinks + '</ul>' +
       '<div class="flex items-center gap-4">' +
         '<button id="theme-toggle" onclick="toggleTheme()" class="transition-colors duration-300 focus:outline-none hover:scale-110">' +
@@ -189,7 +189,7 @@ async function renderPortfolio() {
         '<header id="home" class="relative z-10 pt-36 pb-16 flex flex-col items-center text-center max-w-2xl mx-auto animate-fade-in px-4 sm:px-6 md:px-8 w-full">' +
           '<img src="' + data.settings.profileImage + '" alt="Profile" class="rounded-full w-24 h-24 object-cover mb-8 border-4 border-white shadow-lg float-animation" />' +
           '<h2 class="' + primaryFontClass + ' text-2xl mb-3 animate-slide-up primary-text">Hi! I\'m ' + data.settings.name + ' <span class="inline-block">👋</span></h2>' +
-          '<h1 class="' + primaryFontClass + ' text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 animate-slide-up hero-title-spaced">' + data.settings.title + '<br />based in ' + data.settings.location + '.</h1>' +
+          '<h1 class="' + primaryFontClass + ' text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 animate-slide-up hero-title-spaced">' + data.settings.title + '</h1>' +
           '<p class="text-sm sm:text-[16px] text-gray-600 dark:text-gray-400 mb-10 sm:mb-12 animate-fade-in leading-relaxed">' + data.settings.summary + '</p>' +
           '<div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">' + ctas + '</div>' +
         '</header>' +
