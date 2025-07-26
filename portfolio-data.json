@@ -3,7 +3,7 @@
     "name": "Nikita Choudhari",
     "title": "Full Stack Developer",
     "location": "India",
-    "summary": "Full Stack Developer with experience in MERN stack and passionate about problem-solving and open-source contributions.",
+    "summary": "Specializing in the MERN stack, I’m passionate about solving complex problems and contributing to open-source projects.",
     "profileImage": "https://avatar.iran.liara.run/public/83",
     "primaryColor": "#0067c7",
     "fonts": {
@@ -151,7 +151,7 @@
         },
         {
           "institution": "Government Polytechnic Pune",
-          "degree": "Diploma in Computer Eng. - 89.73%",
+          "degree": "Diploma in Computer Engineering - 89.73%",
           "period": "2019 - 2022"
         },
         {
@@ -179,12 +179,17 @@
         {
           "platform": "GitHub",
           "url": "https://github.com/NikitaChoudhari",
-          "icon": "globe"
+          "icon": "github"
         },
         {
           "platform": "Leetcode",
           "url": "https://leetcode.com/NikitaChoudhari96/",
           "icon": "leetcode"
+        },
+        {
+          "platform":"Hackerrank",
+          "url": "https://www.hackerrank.com/profile/choudharinikita",
+          "icon": "hackerrank"
         }
       ]
     }

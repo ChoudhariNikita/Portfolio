@@ -23,7 +23,9 @@ function getIconSVG(name) {
       return '<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25m-9-3H9M12 10.5H9m6.75 4.5H9m5.25 4.5H9"/></svg>';
     case "leetcode":
       return '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACkUlEQVR4nK2VzU8TQRTA1wC7207bXUA0Rjujgpe2saTcoJ8RFYNH0aAmICqejCcvalL8OGDUA+EifgTtDsH04G6LHjz5F3DQKEGMHgydpcagaEiM2o7ZJku3rWm3ti95p3nz+72Z2ZllmCpjwMWwvT7722YHlz0edjyudn5FuN8DPnIcS7X07QFf6wbv6mKa/G7wQYcDC0tPhMXLdYGHQkxjwAPe6XCrhaUDAced+nXuAe91uIVn6dA+YbJunfd4wJIO53mW3j6zmRIM11QJXacvmcaa4AEPWDTCx0faqIpRPiX4fGmig/u/zt15uIVn6cWBllcEw6gqIUwk9EeXEAnNvYm72Gr4DX4PWDAe6PAB8YGxYCXm3K9itJ5fDZRpnGkwBe9xFcJP94nT/yokMztDREI/DNvVX5Ee9trmjfDRQ0KsXH06BrtVjL4QDNPLs+3OsvDBkH3MCD/X3zxTsSOGYbRDplNdTRULvbutq7pgqFd8wdQ5mrSuNbhzC5+JR5mCr+KZokSSCeXbXEKhJjKTTMgPiwWi3r23A6wXDyYVZdwkPJdJRV4rZmxqFfiMJhDsHL1yss1rHJRl2ZlU5EfJhBw3k4nE08GSPQrutW1crG43WJ2+IIi17HlJDB8UA6KDy+qSiBd8nhptFirNUzE8TGKoz5TkWFC8BKxcTqBluNOWnjjf4igDv6FfNO1OmJIc9TuiBRKvbeXmSKu9BC6hWxvvEUaZZYw6TQlykpD9arHk9f1dW7Wx1NQ2q4rhXSNcjaFTpuEbkqBwzSiZn9zxU8VwgWD43fCSZlMYnq0arsdgRBjb3sZnjwQEDVbwLyAY/qoJrkd61tmuSuieKsFPREK/CYYqkeCTlAR9ZgB/Ac7jlcKnc3teAAAAAElFTkSuQmCC" alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo">';
-    default:
+    case "hackerrank":
+      return '<img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png" alt="external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo"/>';
+      default:
       return "";
   }
 }
@@ -160,13 +162,16 @@ async function renderPortfolio() {
 
     // Navigation bar
     const nav = '<nav class="w-full flex justify-between items-center px-4 sm:px-6 md:px-8 py-5 bg-white/80 dark:bg-black/90 backdrop-blur-md fixed top-0 left-0 z-50 border-b border-gray-200 dark:border-gray-800">' +
-      // '<span class="' + primaryFontClass + ' text-xl font-bold tracking-tight primary-text">' + logoName + '<span class="dynamic-primary">.</span></span>' +
+      '<a href="#home" class="flex items-center gap-2">' +
+      '<img src="https://img.icons8.com/nolan/64/portfolio.png" alt="portfolio" class="w-8 h-8" />' +
+      '<span class="' + primaryFontClass + ' text-xl font-semibold ml-2">My Portfolio</span>' +
+      '</a>' +
       '<ul class="hidden md:flex gap-6 sm:gap-8 md:gap-10 ' + primaryFontClass + ' text-lg">' + navLinks + '</ul>' +
       '<div class="flex items-center gap-4">' +
-        '<button id="theme-toggle" onclick="toggleTheme()" class="transition-colors duration-300 focus:outline-none hover:scale-110">' +
-          '<span id="theme-toggle-icon"></span>' +
-        '</button>' +
-        '<a href="#contact" class="px-6 py-2 rounded-full bg-dynamic-primary text-white ' + primaryFontClass + ' font-medium shadow hover:scale-105 transition-all duration-300 hover:shadow-lg">Connect</a>' +
+      '<button id="theme-toggle" onclick="toggleTheme()" class="transition-colors duration-300 focus:outline-none hover:scale-110">' +
+        '<span id="theme-toggle-icon"></span>' +
+      '</button>' +
+      '<a href="#contact" class="px-6 py-2 rounded-full bg-dynamic-primary text-white ' + primaryFontClass + ' font-medium shadow hover:scale-105 transition-all duration-300 hover:shadow-lg">Connect</a>' +
       '</div>' +
     '</nav>';
 
@@ -341,10 +346,10 @@ async function renderPortfolio() {
     let footer = "";
     footer = '<footer class="footer-bg-smoke py-8 text-center text-sm text-gray-600 dark:text-gray-400 mt-auto w-full">' +
       '<div class="footer-content max-w-2xl mx-auto px-4">' +
-      'Made with <span style="color:#e25555;">&#10084;&#65039;</span> by ' +
+      'Made with <span style="color:#e25555;display:inline;">&#10084;&#65039;</span> by ' +
       (data.footer && data.footer.copyright
-        ? data.footer.copyright
-        : (data.settings && data.settings.name ? data.settings.name : "Me")) +
+      ? data.footer.copyright
+      : (data.settings && data.settings.name ? data.settings.name : "Me")) +
       '</div>' +
     '</footer>';
     
